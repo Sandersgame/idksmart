@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <title>TWIG x NCS x ARG – Reveal</title>
+  <style>
+    body {
+      background:#0d1117; color:#e6edf3;
+      font-family: system-ui, sans-serif;
+      text-align:center; padding:40px;
+    }
+    .hidden {
+      color:#0d1117; /* Samme som baggrund = usynlig */
+    }
+    .braille {
+      font-size:2em;
+      letter-spacing:0.3em;
+      line-height:1.5em;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tillykke 🎉</h1>
+  <p>Du er nu med i spillet held og lykke og vi ses.</p>
+
+  <!-- Skjult hint -->
+  <p class="hidden">Find mig ved Bord 52</p>
+
+  <h2>Kodeordet (i en klassisk kryptering):</h2>
+  <div class="braille">
+    ⠓ ⠁ ⠗ ⠲⠀⠙ ⠥⠀⠑ ⠝⠀⠛ ⠁ ⠗ ⠙ ⠑ ⠧ ⠕ ⠊ ⠗⠀⠞ ⠊ ⠇⠀⠍ ⠊ ⠛
+  </div>
+</body>
+</html>
