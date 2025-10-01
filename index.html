@@ -1,10 +1,55 @@
-<h1>Tillykke 🎉</h1>
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kodeord</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d1117; /* mørk baggrund */
+      color: #e6edf3;           /* grå/hvid tekst */
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh; /* centrer vertikalt */
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p.hidden {
+      color: #a9b1ba; /* lidt lysere grå */
+      font-size: 1rem;
+      margin: 0.5rem 0 1.5rem 0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .braille {
+      font-size: 2rem;
+      letter-spacing: 0.4rem; /* luft mellem tegnene */
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tillykke 🎉</h1>
   <!-- Skjult hint -->
   <p class="hidden">Find mig ved Bord 52</p>
 
   <h2>Kodeordet:</h2>
+  <div class="braille">    ⠓ ⠁ ⠗ ⠲⠀⠙ ⠥⠀⠑ ⠝⠀⠛ ⠁ ⠗ ⠙ ⠑ ⠧ ⠕ ⠊ ⠗⠀⠞ ⠊ ⠇⠀⠍ ⠊ ⠛
+</div>
 
-  
-  <div class="braille">
-    ⠓ ⠁ ⠗ ⠲⠀⠙ ⠥⠀⠑ ⠝⠀⠛ ⠁ ⠗ ⠙ ⠑ ⠧ ⠕ ⠊ ⠗⠀⠞ ⠊ ⠇⠀⠍ ⠊ ⠛
-  </div>
+</body>
+</html>
